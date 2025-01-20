@@ -1,0 +1,15 @@
+[package]
+name = "groq-rust-agent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenv = "0.15"
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros"] }
+anyhow = "1.0"
+regex = "1.5"
+lazy_static = "1.4"
+
